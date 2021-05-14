@@ -15,7 +15,7 @@ class TestPalindrome(unittest.TestCase):
 		with self.assertRaises(TypeError): palindrome.pal()
 		print("There is a Type Error ...")
 
-def test_equivalence(self):
+	def test_equivalence(self):
 		lengthOG = input("Please enter the word to test that the length is not changed: ")
 		print("Now enter the same exact word again")
 		this = len(lengthOG)
